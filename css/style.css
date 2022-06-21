@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+/*desktop section start*/
+/*header section start*/
+header nav .navbar-collapse ul li{
+	font-size: 25px;
+	margin-right: 15px;
+	align-items: center;
+	font-weight: 500;
+}
+header nav .navbar-collapse form{
+	position: relative;
+	align-items: center;
+}
+header nav .navbar-collapse form input{
+	width: 275px;
+	padding-left: 45px;
+}
+header nav .navbar-collapse form svg{
+	position: absolute;
+	left: 10px;
+}
+header nav .navbar-collapse .kart-sec img{
+	height: 60px;
+	width: 60px;
+}
+header nav 	.navbar-collapse button{
+	background: black;
+    color: white;
+    border-radius: 50px
+}
+/*header section end*/
+
+/*banner section start*/
+.banner .box {
+	align-items: center;
+}
+.banner .box .left-side, .right-side{
+	width: 50%;
+}
+.banner .box .left-side p{
+	font-weight: 500;
+}
+.banner .box .right-side img{
+	height: 59vh;
+}
+/*banner section end*/
+
+
+/*series section start*/
+.series .row .right-side .box .mini-box .right-side{
+	width: 35%;
+}
+/*series section end*/
+
+
+
+/*feature product section start*/
+.feature-product .product-list .mySwiper-one {
+        width: 100%;
+        height: 100%;
+      }
+
+      .feature-product .product-list .mySwiper-one .swiper-wrapper .swiper-slide {
+        display: block;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      }
+
+       .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .feature-product .product-list .mySwiper-one .swiper-wrapper .swiper-slide .discount-sec span{
+        background: #f03118;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 7px;
+      }
+      .feature-product .product-list .mySwiper-one .swiper-wrapper .swiper-slide .discount-sec img{
+        height: 50px;
+        width: 50px;
+      }
+/*feature product section end*/
+
+
+/*feature categories section start*/
+.feature-categories .list .mySwiper-two {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .feature-categories .list .mySwiper-two .swiper-wrapper{
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .feature-categories .list .mySwiper-two .swiper-wrapper .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        height: calc((100% - 30px) / 2) !important;
+
+        /* Center slide text vertically */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+/*feature categories section end*/
+
+/*hot collcetion start*/
+.hot-collection .list-container .mySwiper-three {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .hot-collection .list-container .mySwiper-three .swiper-wrapper{
+        flex-direction: row;
+        align-items: center;
+      }
+      .hot-collection .list-container .mySwiper-three .swiper-wrapper .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        height: calc((100% - 30px) / 2) !important;
+
+        /* Center slide text vertically */
+        display: block;
+        justify-content: center;
+        align-items: center;
+      }
+      .hot-collection .list-container .mySwiper-three .swiper-wrapper .swiper-slide .heart svg{
+        height: 50px;
+        width: 50px;
+        float: right;
+      }
+      .hot-collection .list-container .mySwiper-three .swiper-wrapper .swiper-slide .heart #red-heart{
+        height: 50px;
+        width: 50px;
+        display: none;
+      }
+/*hot collection end*/
+
+
+/*email-sec start*/
+.email-sec .row .col-6 h2{
+  padding-left: 3in;
+}
+/*email-sec end*/
+
+
+footer .box .first-box h4{
+  font-weight: 700;
+}
+footer .box .first-box h4 span{
+  font-weight: 400;
+}
+footer .box .first-box .social-icon svg{
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+footer .box .mini-box{
+  margin: auto;
+  align-items: center;
+  text-transform: capitalize;
+}
+footer .box .mini-box ul{
+  padding: 0;
+}
+footer .box .mini-box ul li{
+  margin-bottom: 5px;
+}
+footer .box .mini-box ul li a:hover{
+  text-decoration: underline;
+}
+/*desktop size section end*/
+
+
+/*laptop size section start*/
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px){
+    /*header section start*/
+    header nav .navbar-brand{
+    font-size: 25px!important;
+  }
+    header nav .collapse ul li{
+    font-size: 15px;
+  }
+  header nav form input{
+    width: 200px;
+    height: 40px;
+  }
+  /*header section start*/
+
+  /*feature product section start*/
+  .feature-product .title h3{
+    font-size: 25px;
+  }
+  .feature-product .title .all-product a{
+    font-size: 20px!important;
+  }
+  .feature-product .product-list .mySwiper-one .swiper-wrapper .swiper-slide .discount-sec span{
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .feature-product .product-list .mySwiper-one .swiper-wrapper .swiper-slide .discount-sec img{
+    height: 25px;
+    width: 25px;
+  }
+  /*feature product section start*/
+
+  /*feature categories section start*/
+  .feature-categories .title h3{
+    font-size: 25px;
+  }
+  .feature-categories .title .all-product a{
+    font-size: 20px!important;
+  }
+  /*feature categories section end*/
+
+
+  /*hot collection section start*/
+  .hot-collection .title h3{
+    font-size: 25px;
+  }
+  .hot-collection .title .all-product a{
+    font-size: 20px!important;
+  }
+  .hot-collection .list-container .mySwiper-three .swiper-wrapper .swiper-slide .heart svg {
+    height: 25px;
+    width: 25px;
+  }
+  .hot-collection .list-container .mySwiper-three .swiper-wrapper .swiper-slide .product-price span{
+    font-size: 15px;
+  }
+  .hot-collection .list-container .mySwiper-three .swiper-wrapper .swiper-slide .product-price h4{
+    font-size: 18px;
+  }
+  /*hot collection section end*/
+}
+/*laptop size section end*/
+
+
+/*ipad size section start*/
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  .banner{
+    padding: 25px 0;
+  }
+  .banner .box .right-side img {
+    height: 33vw;
+  }
+
+  .feature-product .product-list .mySwiper-one .swiper-wrapper .swiper-slide .discount-sec span {
+    padding: 5px 10px;
+    font-size: 15px;
+  }
+  .feature-product .product-list .mySwiper-one .swiper-wrapper .swiper-slide .discount-sec img{
+    display: none;
+  }
+  .hot-collection .list-container .mySwiper-three .swiper-wrapper .swiper-slide .heart svg{
+    height: 25px;
+    width: 25px;
+  }
+  .email-sec .row .col-6 h2{
+    padding-left: 1in;
+  }
+}
+/*ipad size section end*/
+
+
+/*iphone size section start*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .banner{
+    padding: 35px 0;
+  }
+  .banner .box .right-side img {
+    height: 15vh;
+  }
+  .feature-product .product-list .mySwiper-one .swiper-wrapper .swiper-slide .discount-sec span{
+    padding: 5px 10px;
+  }
+  .feature-product .product-list .mySwiper-one .swiper-wrapper .swiper-slide .discount-sec img{
+    display: none;
+  }
+  .hot-collection .list-container .mySwiper-three .swiper-wrapper .swiper-slide .heart svg{
+    height: 25px;
+    width: 25px;
+  }
+  .email-sec .row .col-6 h2 {
+    padding-left: 1in;
+  }
+  .email-sec .row .email-box input{
+    margin-bottom: 10px;
+  } 
+}
+/*iphone size section end*/
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px){
+  .banner{
+    padding: 35px 0;
+  }
+  .banner .box .right-side img {
+    height: 15vh;
+  }
+  .feature-product .product-list .mySwiper-one .swiper-wrapper .swiper-slide .discount-sec span{
+    padding: 5px 10px;
+    font-size: 15px;
+  }
+  .hot-collection .list-container .mySwiper-three .swiper-wrapper .swiper-slide .heart svg{
+    height: 25px;
+    width: 25px;
+  }
+  .email-sec .row .col-6 h2 {
+    padding-left: 0;
+  }
+}
+
+/*iphone 5 size*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px){
+  .banner{
+    padding: 35px;
+  }
+  .banner .box .right-side img {
+    height: 15vh;
+  }
+  .hot-collection .list-container .mySwiper-three .swiper-wrapper .swiper-slide .heart svg {
+    height: 25px;
+    width: 25px;
+  }
+  .email-sec .row .col-6 h2 {
+    padding-left: 0;
+  }
+}
+/*iphone 5 size*/
